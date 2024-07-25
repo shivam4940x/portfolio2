@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=quicksand@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=pally@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=pilcrow-rounded@900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- local css -->
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="/css/additional.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <!-- Imported js libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"
+      integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <title>ehe</title>
+  </head>
+  <body>
+    <div id="cursor-wrapper">
+      <div class="cursor"></div>
+    </div>
+    <header>
+      <div id="logo_wrapper"><div>logo</div></div>
+      <div id="shotcut_links">
+        <ul>
+          <li class="cursor_animate"><span></span><span></span></li>
+          <li class="cursor_animate"><span></span><span></span></li>
+          <li class="cursor_animate"><span></span><span></span></li>
+        </ul>
+      </div>
+    </header>
+    <div id="page-wrapper">
+      <main>
+        <section id="home" class="content">
+          <div class="container">
+            <div class="home_main_wrapper heading">
+              <div class="heading-wrapper">
+                <span>I'm a</span>
+                <div class="main_heading"><div>full-stack</div></div>
+              </div>
+              <div class="heading-wrapper">
+                <div class="main_heading">developer</div>
+              </div>
+            </div>
+            <div class="home_main_wrapper links">
+              <div class="links_wrapper">
+                <ul>
+                  <li>
+                    <a
+                      class="postionR"
+                      target="_blank"
+                      href="https://github.com/shivam4940x/"
+                      ><img
+                        class="move_on_hover"
+                        id="github-link"
+                        src="/svg/git.svg"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="postionR"
+                      target="_blank"
+                      href="https://linkedin.com/in/shivam-singh-37b56b28b"
+                      ><img
+                        class="move_on_hover"
+                        src="/svg/linkedIn.svg"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="postionR"
+                      target="_blank"
+                      href="https://leetcode.com/u/shivamsingh4940x/"
+                      ><img
+                        class="move_on_hover"
+                        src="/svg/leetcode.svg"
+                        alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- background -->
+          <div class="bg-wrapper wrapper">
+            <div>
+              <div class="grid_bg"></div>
+              <div class="bg-light"></div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="content"></section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="/js/gsap_animation.js"></script>
+    <script src="/js/animejs_animation.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
